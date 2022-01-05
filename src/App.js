@@ -4,7 +4,8 @@ import React, { lazy, Suspense, useEffect, useState } from "react";
 
 import "./App.css";
 import Header from "./Components/Header/Header";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";

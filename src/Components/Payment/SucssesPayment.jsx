@@ -67,7 +67,7 @@ const SucssesPayment = ({ userData, totalPrice, cart }) => {
               </div>
             </div>
             <div className="text-center mt-16 text-blue-600 hover:text-blue-500">
-              <Link to="/"> Back to products ...</Link>
+              <a href="/"> Back to products ...</a>
             </div>
           </div>
         )}

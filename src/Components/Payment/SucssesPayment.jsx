@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const SucssesPayment = ({ userData, totalPrice, cart }) => {
   const [sucsses, setSucsses] = useState(false);
@@ -66,10 +67,7 @@ const SucssesPayment = ({ userData, totalPrice, cart }) => {
               </div>
             </div>
             <div className="text-center mt-16 text-blue-600 hover:text-blue-500">
-              <button onClick={() => (window.location.pathname = "/")}>
-                {" "}
-                Back to products ...
-              </button>
+              <Link to="/"> Back to products ...</Link>
             </div>
           </div>
         )}
